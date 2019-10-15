@@ -11,16 +11,7 @@
 ### Just Test:
 
 ```
-python ss_ssr_decode
-```
-
-### Import To Your Code
-
-```
-form ss_ssr_decode import parse
-
-result = parse('your ss/ssr url here')
-print(result)
+python3 ss_ssr_decode  ssr_url/ss_url
 ```
 
 ## Result Format

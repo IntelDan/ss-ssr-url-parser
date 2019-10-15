@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 import base64
+import sys
 
 __author__ = 'Vien'
 
@@ -60,5 +61,4 @@ def parse(txt):
 
 
 if __name__ == '__main__':
-    print(parse('ss://YWVzLTEyOC1jdHI6dmllbmNvZGluZy5jb21AMTUyLjg5LjIwOC4xNDY6MjMzMw'))
-    print(parse('ssr://MTUyLjg5LjIwOC4xNDY6MjMzMzphdXRoX3NoYTFfdjQ6YWVzLTEyOC1jdHI6cGxhaW46ZG1sbGJtTnZaR2x1Wnk1amIyMA'))
+    print(parse(sys.argv[1]))
