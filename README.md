@@ -34,6 +34,10 @@ That's all. Hope you have a fun to use.
 
 ## Other
 
+### TODO
+
+some password fail to decode, only decode part and can't decode obfs params.
+
 ### Online QRCode Generator For ss/ssr
 
 [ss-ssr-qrcode-generator](https://viencoding.com/ss-ssr-qrcode-generator)
